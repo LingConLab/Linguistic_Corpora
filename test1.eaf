@@ -1,0 +1,199 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ANNOTATION_DOCUMENT AUTHOR="unspecified" DATE="2017-12-26T21:11:18+03:00" FORMAT="3.0" VERSION="3.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://www.mpi.nl/tools/elan/EAFv3.0.xsd">
+    <HEADER MEDIA_FILE="" TIME_UNITS="milliseconds">
+        <MEDIA_DESCRIPTOR MEDIA_URL="file:///home/melanoya/Documents/maga/con_laba/test/test1.wav" MIME_TYPE="audio/x-wav" RELATIVE_MEDIA_URL="../../../../../Documents/maga/con_laba/test/test1.wav"/>
+        <PROPERTY NAME="URN">urn:nl-mpi-tools-elan-eaf:9a8e1c38-9a57-4291-be41-b3a88963bf8b</PROPERTY>
+        <PROPERTY NAME="lastUsedAnnotationId">30</PROPERTY>
+    </HEADER>
+    <TIME_ORDER>
+        <TIME_SLOT TIME_SLOT_ID="ts1" TIME_VALUE="1680"/>
+        <TIME_SLOT TIME_SLOT_ID="ts2" TIME_VALUE="3800"/>
+        <TIME_SLOT TIME_SLOT_ID="ts3" TIME_VALUE="3810"/>
+        <TIME_SLOT TIME_SLOT_ID="ts4" TIME_VALUE="4600"/>
+        <TIME_SLOT TIME_SLOT_ID="ts5" TIME_VALUE="5060"/>
+        <TIME_SLOT TIME_SLOT_ID="ts6" TIME_VALUE="5680"/>
+    </TIME_ORDER>
+    <TIER DEFAULT_LOCALE="en" LINGUISTIC_TYPE_REF="paragraph" PARTICIPANT="rtc" TIER_ID="rtc_Transcription-txt-bak">
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="a1" TIME_SLOT_REF1="ts1" TIME_SLOT_REF2="ts3">
+                <ANNOTATION_VALUE>sertifikat taratəp jöröjöŋmö ällä? hawmə</ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="a2" TIME_SLOT_REF1="ts5" TIME_SLOT_REF2="ts6">
+                <ANNOTATION_VALUE>ultər</ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
+    </TIER>
+    <TIER DEFAULT_LOCALE="en" LINGUISTIC_TYPE_REF="association" PARENT_REF="rtc_Transcription-txt-bak" PARTICIPANT="rtc" TIER_ID="rtc_Translation-gls-ru">
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a3" ANNOTATION_REF="a1">
+                <ANNOTATION_VALUE>Сертификаты раздаешь что ли? Здравствуй.</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a4" ANNOTATION_REF="a2">
+                <ANNOTATION_VALUE>Садись.</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+    </TIER>
+    <TIER DEFAULT_LOCALE="en" LINGUISTIC_TYPE_REF="association" PARENT_REF="rtc_Transcription-txt-bak" PARTICIPANT="rtc" TIER_ID="rtc_Participant-note-en">
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a5" ANNOTATION_REF="a1">
+                <ANNOTATION_VALUE>110700_rtk_rrg_Dialog_o_postuplenii.wav 1.680 3.810</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a6" ANNOTATION_REF="a2">
+                <ANNOTATION_VALUE>110700_rtk_rrg_Dialog_o_postuplenii.wav 5.060 5.680</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+    </TIER>
+    <TIER DEFAULT_LOCALE="en" LINGUISTIC_TYPE_REF="subdivision" PARENT_REF="rtc_Transcription-txt-bak" PARTICIPANT="rtc" TIER_ID="rtc_Morph-txt-bak">
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a7" ANNOTATION_REF="a1">
+                <ANNOTATION_VALUE>sertifikat</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a8" ANNOTATION_REF="a1" PREVIOUS_ANNOTATION="a7">
+                <ANNOTATION_VALUE>tarat-əp</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a9" ANNOTATION_REF="a1" PREVIOUS_ANNOTATION="a8">
+                <ANNOTATION_VALUE>jörö-j-öŋ-mö</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a10" ANNOTATION_REF="a1" PREVIOUS_ANNOTATION="a9">
+                <ANNOTATION_VALUE>ällä</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a11" ANNOTATION_REF="a1" PREVIOUS_ANNOTATION="a10">
+                <ANNOTATION_VALUE>hawmə</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a12" ANNOTATION_REF="a2">
+                <ANNOTATION_VALUE>ultər-Ø</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+    </TIER>
+    <TIER DEFAULT_LOCALE="en" LINGUISTIC_TYPE_REF="association" PARENT_REF="rtc_Morph-txt-bak" PARTICIPANT="rtc" TIER_ID="rtc_Gloss-txt-en">
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a13" ANNOTATION_REF="a7">
+                <ANNOTATION_VALUE>STEM</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a14" ANNOTATION_REF="a8">
+                <ANNOTATION_VALUE>STEM-CV</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a15" ANNOTATION_REF="a9">
+                <ANNOTATION_VALUE>STEM-IPFV-2SG-Q</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a16" ANNOTATION_REF="a10">
+                <ANNOTATION_VALUE>STEM</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a17" ANNOTATION_REF="a11">
+                <ANNOTATION_VALUE>STEM</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a18" ANNOTATION_REF="a12">
+                <ANNOTATION_VALUE>STEM-IMP</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+    </TIER>
+    <TIER DEFAULT_LOCALE="en" LINGUISTIC_TYPE_REF="association" PARENT_REF="rtc_Morph-txt-bak" PARTICIPANT="rtc" TIER_ID="rtc_POS-txt-en">
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a19" ANNOTATION_REF="a7">
+                <ANNOTATION_VALUE>n</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a20" ANNOTATION_REF="a8">
+                <ANNOTATION_VALUE>v</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a21" ANNOTATION_REF="a9">
+                <ANNOTATION_VALUE>v</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a22" ANNOTATION_REF="a10">
+                <ANNOTATION_VALUE>word</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a23" ANNOTATION_REF="a11">
+                <ANNOTATION_VALUE>word</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a24" ANNOTATION_REF="a12">
+                <ANNOTATION_VALUE>v</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+    </TIER>
+    <TIER DEFAULT_LOCALE="en" LINGUISTIC_TYPE_REF="paragraph" PARTICIPANT="rrg" TIER_ID="rrg_Transcription-txt-bak">
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="a25" TIME_SLOT_REF1="ts2" TIME_SLOT_REF2="ts4">
+                <ANNOTATION_VALUE>jaq</ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
+    </TIER>
+    <TIER DEFAULT_LOCALE="en" LINGUISTIC_TYPE_REF="association" PARENT_REF="rrg_Transcription-txt-bak" PARTICIPANT="rrg" TIER_ID="rrg_Translation-gls-ru">
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a26" ANNOTATION_REF="a25">
+                <ANNOTATION_VALUE>Нет.</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+    </TIER>
+    <TIER DEFAULT_LOCALE="en" LINGUISTIC_TYPE_REF="association" PARENT_REF="rrg_Transcription-txt-bak" PARTICIPANT="rrg" TIER_ID="rrg_Participant-note-en">
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a27" ANNOTATION_REF="a25">
+                <ANNOTATION_VALUE>110700_rtk_rrg_Dialog_o_postuplenii.wav 3.800 4.600</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+    </TIER>
+    <TIER DEFAULT_LOCALE="en" LINGUISTIC_TYPE_REF="subdivision" PARENT_REF="rrg_Transcription-txt-bak" PARTICIPANT="rrg" TIER_ID="rrg_Morph-txt-bak">
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a28" ANNOTATION_REF="a25">
+                <ANNOTATION_VALUE>jaq</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+    </TIER>
+    <TIER DEFAULT_LOCALE="en" LINGUISTIC_TYPE_REF="association" PARENT_REF="rrg_Morph-txt-bak" PARTICIPANT="rrg" TIER_ID="rrg_Gloss-txt-en">
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a29" ANNOTATION_REF="a28">
+                <ANNOTATION_VALUE>NEG.COP</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+    </TIER>
+    <TIER DEFAULT_LOCALE="en" LINGUISTIC_TYPE_REF="association" PARENT_REF="rrg_Morph-txt-bak" PARTICIPANT="rrg" TIER_ID="rrg_POS-txt-en">
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a30" ANNOTATION_REF="a28">
+                <ANNOTATION_VALUE>word</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+    </TIER>
+    <LINGUISTIC_TYPE GRAPHIC_REFERENCES="false" LINGUISTIC_TYPE_ID="paragraph" TIME_ALIGNABLE="true"/>
+    <LINGUISTIC_TYPE CONSTRAINTS="Symbolic_Association" GRAPHIC_REFERENCES="false" LINGUISTIC_TYPE_ID="association" TIME_ALIGNABLE="false"/>
+    <LINGUISTIC_TYPE CONSTRAINTS="Symbolic_Subdivision" GRAPHIC_REFERENCES="false" LINGUISTIC_TYPE_ID="subdivision" TIME_ALIGNABLE="false"/>
+    <LINGUISTIC_TYPE GRAPHIC_REFERENCES="false" LINGUISTIC_TYPE_ID="paragraph1" TIME_ALIGNABLE="true"/>
+    <LOCALE COUNTRY_CODE="US" LANGUAGE_CODE="en"/>
+    <CONSTRAINT DESCRIPTION="Time subdivision of parent annotation's time interval, no time gaps allowed within this interval" STEREOTYPE="Time_Subdivision"/>
+    <CONSTRAINT DESCRIPTION="Symbolic subdivision of a parent annotation. Annotations refering to the same parent are ordered" STEREOTYPE="Symbolic_Subdivision"/>
+    <CONSTRAINT DESCRIPTION="1-1 association with a parent annotation" STEREOTYPE="Symbolic_Association"/>
+    <CONSTRAINT DESCRIPTION="Time alignable annotations within the parent annotation's time interval, gaps are allowed" STEREOTYPE="Included_In"/>
+</ANNOTATION_DOCUMENT>

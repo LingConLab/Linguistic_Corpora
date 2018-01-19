@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ANNOTATION_DOCUMENT AUTHOR="unspecified" DATE="2017-12-26T21:09:30+03:00" FORMAT="3.0" VERSION="3.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://www.mpi.nl/tools/elan/EAFv3.0.xsd">
+    <HEADER MEDIA_FILE="" TIME_UNITS="milliseconds">
+        <MEDIA_DESCRIPTOR MEDIA_URL="file:///home/melanoya/Documents/maga/con_laba/test/test2.wav" MIME_TYPE="audio/x-wav" RELATIVE_MEDIA_URL="../../../../../Documents/maga/con_laba/test/test2.wav"/>
+        <PROPERTY NAME="URN">urn:nl-mpi-tools-elan-eaf:351b40d0-4e96-4b5f-b91f-fd1a958a0b45</PROPERTY>
+        <PROPERTY NAME="lastUsedAnnotationId">21</PROPERTY>
+    </HEADER>
+    <TIME_ORDER>
+        <TIME_SLOT TIME_SLOT_ID="ts1" TIME_VALUE="300"/>
+        <TIME_SLOT TIME_SLOT_ID="ts2" TIME_VALUE="5050"/>
+    </TIME_ORDER>
+    <TIER DEFAULT_LOCALE="en" LINGUISTIC_TYPE_REF="paragraph" PARTICIPANT="ngg" TIER_ID="ngg_Transcription-txt-bak">
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="a1" TIME_SLOT_REF1="ts1" TIME_SLOT_REF2="ts2">
+                <ANNOTATION_VALUE>Xäðer awəlda balalar ösön sadik astəlar.</ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
+    </TIER>
+    <TIER DEFAULT_LOCALE="en" LINGUISTIC_TYPE_REF="association" PARENT_REF="ngg_Transcription-txt-bak" PARTICIPANT="ngg" TIER_ID="ngg_Translation-gls-ru">
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a2" ANNOTATION_REF="a1">
+                <ANNOTATION_VALUE>Тогда в деревне открыли детский сад для детей.</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+    </TIER>
+    <TIER DEFAULT_LOCALE="en" LINGUISTIC_TYPE_REF="association" PARENT_REF="ngg_Transcription-txt-bak" PARTICIPANT="ngg" TIER_ID="ngg_Participant-note-en">
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a3" ANNOTATION_REF="a1">
+                <ANNOTATION_VALUE>110704_ngg_Detskij_sad.wav 11.550 16.300</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+    </TIER>
+    <TIER DEFAULT_LOCALE="en" LINGUISTIC_TYPE_REF="subdivision" PARENT_REF="ngg_Transcription-txt-bak" PARTICIPANT="ngg" TIER_ID="ngg_Morph-txt-bak">
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a4" ANNOTATION_REF="a1">
+                <ANNOTATION_VALUE>xäðer</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a5" ANNOTATION_REF="a1" PREVIOUS_ANNOTATION="a4">
+                <ANNOTATION_VALUE>awəl-da</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a6" ANNOTATION_REF="a1" PREVIOUS_ANNOTATION="a5">
+                <ANNOTATION_VALUE>bala-lar</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a7" ANNOTATION_REF="a1" PREVIOUS_ANNOTATION="a6">
+                <ANNOTATION_VALUE>ösön</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a8" ANNOTATION_REF="a1" PREVIOUS_ANNOTATION="a7">
+                <ANNOTATION_VALUE>sadik</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a9" ANNOTATION_REF="a1" PREVIOUS_ANNOTATION="a8">
+                <ANNOTATION_VALUE>as-tə-lar</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+    </TIER>
+    <TIER DEFAULT_LOCALE="en" LINGUISTIC_TYPE_REF="association" PARENT_REF="ngg_Morph-txt-bak" PARTICIPANT="ngg" TIER_ID="ngg_Gloss-txt-en">
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a10" ANNOTATION_REF="a4">
+                <ANNOTATION_VALUE>STEM</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a11" ANNOTATION_REF="a5">
+                <ANNOTATION_VALUE>STEM-LOC</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a12" ANNOTATION_REF="a6">
+                <ANNOTATION_VALUE>STEM-PL</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a13" ANNOTATION_REF="a7">
+                <ANNOTATION_VALUE>STEM</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a14" ANNOTATION_REF="a8">
+                <ANNOTATION_VALUE>STEM</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a15" ANNOTATION_REF="a9">
+                <ANNOTATION_VALUE>STEM-PST-PL</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+    </TIER>
+    <TIER DEFAULT_LOCALE="en" LINGUISTIC_TYPE_REF="association" PARENT_REF="ngg_Morph-txt-bak" PARTICIPANT="ngg" TIER_ID="ngg_POS-txt-en">
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a16" ANNOTATION_REF="a4">
+                <ANNOTATION_VALUE>adv</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a17" ANNOTATION_REF="a5">
+                <ANNOTATION_VALUE>n</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a18" ANNOTATION_REF="a6">
+                <ANNOTATION_VALUE>n</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a19" ANNOTATION_REF="a7">
+                <ANNOTATION_VALUE>post</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a20" ANNOTATION_REF="a8">
+                <ANNOTATION_VALUE>n</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a21" ANNOTATION_REF="a9">
+                <ANNOTATION_VALUE>v</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+    </TIER>
+    <LINGUISTIC_TYPE GRAPHIC_REFERENCES="false" LINGUISTIC_TYPE_ID="paragraph" TIME_ALIGNABLE="true"/>
+    <LINGUISTIC_TYPE CONSTRAINTS="Symbolic_Association" GRAPHIC_REFERENCES="false" LINGUISTIC_TYPE_ID="association" TIME_ALIGNABLE="false"/>
+    <LINGUISTIC_TYPE CONSTRAINTS="Symbolic_Subdivision" GRAPHIC_REFERENCES="false" LINGUISTIC_TYPE_ID="subdivision" TIME_ALIGNABLE="false"/>
+    <LOCALE COUNTRY_CODE="US" LANGUAGE_CODE="en"/>
+    <CONSTRAINT DESCRIPTION="Time subdivision of parent annotation's time interval, no time gaps allowed within this interval" STEREOTYPE="Time_Subdivision"/>
+    <CONSTRAINT DESCRIPTION="Symbolic subdivision of a parent annotation. Annotations refering to the same parent are ordered" STEREOTYPE="Symbolic_Subdivision"/>
+    <CONSTRAINT DESCRIPTION="1-1 association with a parent annotation" STEREOTYPE="Symbolic_Association"/>
+    <CONSTRAINT DESCRIPTION="Time alignable annotations within the parent annotation's time interval, gaps are allowed" STEREOTYPE="Included_In"/>
+</ANNOTATION_DOCUMENT>

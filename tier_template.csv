@@ -1,0 +1,7 @@
+tier_name,flex_type,tier_type,parent_tier
+Transcription,txt,paragraph,None
+Translation,gls,association,Transcription
+Participant,note,association,Transcription
+Morph,txt,subdivision,Transcription
+Gloss,txt,association,Morph
+POS,txt,association,Morph
