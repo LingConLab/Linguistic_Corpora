@@ -37,3 +37,47 @@ The **Transcription** layer does not depend on any layers. The layers **Morph**,
 **picture**
 
 As a separator, only spaces are used, but they should not be used anywhere in the layer. Separator for the gloss is a hyphen, everything else needs to be separated by something else (for example, Baba_Yaga).
+
+In the template you can use word-by-word division, as, for example, here:
+
+**picture**
+
+Types of all layers:
+
+|           title          |      layer type      |
+|:------------------------:|:--------------------:|
+| A_Transcription-txt-andi | -                    |
+| A_Morph-txt-andi         | Symbolic Subdivision |
+| A_Lemma-txt-andi         | Symbolic Association |
+| A_Gloss-txt-en           | Symbolic Association |
+| A_POS-txt-en             | Symbolic Association |
+| A_Translation-gls-ru     | Symbolic Association |
+| A_Participant-note-en    | Symbolic Association |
+
+
+
+## Metadata.
+The list of possible fields in the metadata table lies in meta_template.csv. Bold in those columns that should be required. The metadata file must be in the .csv format and have the following appearance (each line is one speaker in the file):
+
+|     file_title     | speaker_id | ... | ... | ... |
+|:------------------:|:----------:|:---:|:---:|:---:|
+| andi_pirozki_1.eaf | A          |     |     |     |
+| andi_pirozki_1.eaf | B          |     |     |     |
+| andi_pirozki_2.eaf | A          |     |     |     |
+| andi_pirozki_2.eaf | B          |     |     |     |
+| andi_pirozki_2.eaf | C          |     |     |     |
+
+## Glosses.
+
+A file with glosses is a table (.csv format), in which first there is what is in the markup, and in the next column it is written which large category this gloss refers to. For example:
+
+| voc   | case   |
+|-------|--------|
+| adnum | case   |
+| m     | gender |
+| f     | gender |
+| n     | gender |
+| mf    | gender |
+| tran  | vType  |
+| intr  | vType  |
+| pf    | aspect |
