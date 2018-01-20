@@ -1,16 +1,13 @@
 
 # coding: utf-8
 
-# In[1]:
+# In[10]:
 
 
 from lxml import etree
 import xml.etree.ElementTree as ET
-import re
 import os
-import codecs
-import pandas as pd
-import numpy as np 
+import pandas as pd 
 
 
 # * правильно ли названы все слои (**done** *только если слоев столько же, сколько в шаблоне --- ето исправим попозже*)
@@ -25,21 +22,21 @@ import numpy as np
 # * есть ли звуковые данные для всех файлов?
 # * входит ли длительность всей разметки в длительность звукового файла?
 
-# In[2]:
+# In[11]:
 
 
 #download meta data
 meta = pd.read_csv('meta.csv')
 
 
-# In[3]:
+# In[12]:
 
 
 #download template data
 template = pd.read_csv('tier_template.csv')
 
 
-# In[15]:
+# In[13]:
 
 
 def get_eafData(root):
@@ -64,7 +61,7 @@ def get_eafData(root):
     return res
 
 
-# In[5]:
+# In[14]:
 
 
 # how many speakers in the file
@@ -78,7 +75,7 @@ def n_speakers(data):
         return [[0,6], [6,12], [12,18]]
 
 
-# In[6]:
+# In[15]:
 
 
 # check the names of the layers
@@ -90,7 +87,7 @@ def is_names(eaf_df):
             raise Exception("The tier names in the elan file (for speaker " + ''.join(speaker) + ") does not match the tier names in the template (tier_name and flex_type fields).")
 
 
-# In[7]:
+# In[16]:
 
 
 # check the types of the layers
@@ -102,7 +99,7 @@ def is_types(eaf_df):
             raise Exception("The tier types in the elan file (for speaker " + ''.join(speaker) + ") does not match the tier types in the template (tier_type field).")
 
 
-# In[8]:
+# In[17]:
 
 
 # checking the hierarchy of tiers
@@ -114,12 +111,12 @@ def is_hierarchy(eaf_df):
             raise Exception("tiers hierarchy in the elan file (for speaker " + ''.join(speaker) + ") does not match the tiers hierarchy in the template (parent_tier field).")
 
 
-# In[9]:
+# In[33]:
 
 
-# looking for all elan and wav files
+# looking for all elan and wav files in data folder
 def wavs_eafs():
-    file_names = os.listdir('.')
+    file_names = os.listdir('./data')
     eafs = []
     wavs = []
     for file in file_names:
@@ -130,7 +127,7 @@ def wavs_eafs():
     return eafs, wavs
 
 
-# In[11]:
+# In[19]:
 
 
 # checking .eaf file names and file names in the meta.csv
@@ -143,7 +140,7 @@ def is_file_title(eafs):
         raise Exception("The names of the .eaf files do not match the file names in the meta.csv.")
 
 
-# In[27]:
+# In[20]:
 
 
 # checking names of the speakers in eaf files and in the mata.csv
@@ -154,12 +151,12 @@ def is_speaker_id(eaf_df, filename):
         raise Exception("The names of the speakers in the " + filename + " and in the metadata do not match.")
 
 
-# In[25]:
+# In[31]:
 
 
 def main():
     for eaf in eafs:
-        tree = ET.parse(eaf)
+        tree = ET.parse('./data/' + eaf)
         root = tree.getroot()
         eaf_df = pd.DataFrame(get_eafData(root), columns=['speaker', 'tier_name', 'flex_type', 'lang', 'tier_type', 'parent_tier'])
         is_speaker_id(eaf_df, eaf)
@@ -169,7 +166,7 @@ def main():
         is_names(eaf_df)
 
 
-# In[26]:
+# In[32]:
 
 
 eafs, wavs = wavs_eafs()
