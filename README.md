@@ -1,2 +1,2 @@
 # Linguistic_Corpora
-here will be a validator and some other stuff
+Here lies the template for the corpora layout and the validator. See the description in the .md files.
