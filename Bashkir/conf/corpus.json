@@ -1,0 +1,45 @@
+{
+  "meta_filename": "meta.csv",
+  "speaker_meta_filename": "speaker_meta.json",
+  "meta_fields":
+  [
+    "filename",
+    "title",
+    "speakers",
+    "year"
+  ],
+  "languages": ["bashkir", "russian"],
+  "tier_languages": {
+    ".*_Transcription-txt.*": "bashkir",
+    "ft.*": "russian"
+  },
+  "main_tiers": [".*_Transcription-txt.*"],
+  "aligned_tiers": ["ft@.*"],
+  "analysis_tiers": {
+    ".*_Word-txt.*": "word",
+    ".*_POS-txt.*": "pos",
+    ".*_Morph-txt.*": "parts",
+    ".*_Lemma-txt.*": "lemma",
+    ".*_Gloss-txt-en.*": "gloss",
+    ".*_Gramm-txt.*": "gramm"
+  },
+  "meta_files_ext": true,
+  "meta_files_dir": false,
+  "meta_files_case_sensitive": true,
+  "cg_disambiguate": false,
+  "json_indent": 1,
+  "convert_quotes": true,
+  "gzip": false,
+  "left_quot_mark": "«",
+  "right_quot_mark": "»",
+  "sent_end_punc": "(?:[.!?;;]+(?:[)\\]}>/»]|$)|\\\\n)",
+  "sent_start": "^[A-ZÄÖÜА-ЯЁӤӦӴӞӜ]",
+  "newline_ends_sent": true,
+  "abbreviations": [],
+  "glosses": {
+    "bashkir": [
+    ],
+    "russian": [
+    ]
+  }
+}

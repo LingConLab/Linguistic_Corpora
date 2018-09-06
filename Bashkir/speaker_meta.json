@@ -1,0 +1,362 @@
+{
+  "aamB": {
+    "gender": "F",
+    "year_of_birth": "1933",
+    "place_of_birth": "Верхнебиккузино (Кугарчинский р-н)",
+    "education": "высшее",
+    "native language": "татарский",
+    "is_able_to_write": "да",
+    "is_able_to_read": "да",
+    "place_of_residence_at_the_time_of_recording": "Баимово (Абзелиловский р-н)"
+  },
+  "aga": {
+    "gender": "F",
+    "year_of_birth": "1969",
+    "place_of_birth": "Батталово (Учалинский р-н)",
+    "education": "?",
+    "native language": "башкирский",
+    "is_able_to_write": "да",
+    "is_able_to_read": "да",
+    "place_of_residence_at_the_time_of_recording": "Рахметово (Абзелиловский р-н)"
+  },
+  "bbm": {
+    "gender": "M",
+    "year_of_birth": "1959",
+    "place_of_birth": "Рахметово (Абзелиловский р-н)",
+    "education": "среднее специальное",
+    "native language": "башкирский",
+    "is_able_to_write": "да",
+    "is_able_to_read": "да",
+    "place_of_residence_at_the_time_of_recording": "Рахметово (Абзелиловский р-н)"
+  },
+  "dhm": {
+    "gender": "F",
+    "year_of_birth": "1963",
+    "place_of_birth": "Новобалапаново (Абзелиловский р-н)",
+    "education": "?",
+    "native language": "башкирский",
+    "is_able_to_write": "да",
+    "is_able_to_read": "да",
+    "place_of_residence_at_the_time_of_recording": "Рахметово (Абзелиловский р-н)"
+  },
+  "fmj": {
+    "gender": "F",
+    "year_of_birth": "1968",
+    "place_of_birth": "Таштимерово (Абзелиловский р-н)",
+    "education": "высшее",
+    "native language": "башкирский",
+    "is_able_to_write": "да",
+    "is_able_to_read": "да",
+    "place_of_residence_at_the_time_of_recording": "Рахметово (Абзелиловский р-н)"
+  },
+  "gaj": {
+    "gender": "F",
+    "year_of_birth": "1958",
+    "place_of_birth": "Рахметово (Абзелиловский р-н)",
+    "education": "?",
+    "native language": "башкирский",
+    "is_able_to_write": "да",
+    "is_able_to_read": "да",
+    "place_of_residence_at_the_time_of_recording": "Рахметово (Абзелиловский р-н)"
+  },
+  "ggmT": {
+    "gender": "F",
+    "year_of_birth": "1958",
+    "place_of_birth": "Еникеево (Абзелиловский р-н)",
+    "education": "?",
+    "native language": "башкирский",
+    "is_able_to_write": "да",
+    "is_able_to_read": "да",
+    "place_of_residence_at_the_time_of_recording": "Туишево (Абзелиловский р-н)"
+  },
+  "ggs": {
+    "gender": "F",
+    "year_of_birth": "1928",
+    "place_of_birth": "Рахметово (Абзелиловский р-н)",
+    "education": "?",
+    "native language": "башкирский",
+    "is_able_to_write": "да",
+    "is_able_to_read": "да",
+    "place_of_residence_at_the_time_of_recording": "Рахметово (Абзелиловский р-н)"
+  },
+  "gmxB": {
+    "gender": "F",
+    "year_of_birth": "1938",
+    "place_of_birth": "Кумертау",
+    "education": "?",
+    "native language": "башкирский",
+    "is_able_to_write": "да",
+    "is_able_to_read": "да",
+    "place_of_residence_at_the_time_of_recording": "Баимово (Абзелиловский р-н)"
+  },
+  "grg": {
+    "gender": "F",
+    "year_of_birth": "2001",
+    "place_of_birth": "Рахметово (Абзелиловский р-н)",
+    "education": "начальное",
+    "native language": "башкирский",
+    "is_able_to_write": "да",
+    "is_able_to_read": "да",
+    "place_of_residence_at_the_time_of_recording": "Рахметово (Абзелиловский р-н)"
+  },
+  "gru": {
+    "gender": "F",
+    "year_of_birth": "1961",
+    "place_of_birth": "Рахметово (Абзелиловский р-н)",
+    "education": "высшее",
+    "native language": "башкирский",
+    "is_able_to_write": "да",
+    "is_able_to_read": "да",
+    "place_of_residence_at_the_time_of_recording": "Рахметово (Абзелиловский р-н)"
+  },
+  "iaj": {
+    "gender": "M",
+    "year_of_birth": "1947",
+    "place_of_birth": "Рахметово (Абзелиловский р-н)",
+    "education": "?",
+    "native language": "башкирский",
+    "is_able_to_write": "да",
+    "is_able_to_read": "да",
+    "place_of_residence_at_the_time_of_recording": "Рахметово (Абзелиловский р-н)"
+  },
+  "iim": {
+    "gender": "F",
+    "year_of_birth": "1959",
+    "place_of_birth": "Баимово (Абзелиловский р-н)",
+    "education": "?",
+    "native language": "башкирский",
+    "is_able_to_write": "да",
+    "is_able_to_read": "да",
+    "place_of_residence_at_the_time_of_recording": "Рахметово (Абзелиловский р-н)"
+  },
+  "iliB": {
+    "gender": "M",
+    "year_of_birth": "1957",
+    "place_of_birth": "Баимово (Абзелиловский р-н)",
+    "education": "высшее",
+    "native language": "башкирский",
+    "is_able_to_write": "да",
+    "is_able_to_read": "да",
+    "place_of_residence_at_the_time_of_recording": "Баимово (Абзелиловский р-н)"
+  },
+  "img": {
+    "gender": "F",
+    "year_of_birth": "1971",
+    "place_of_birth": "Яйкарово (Абзелиловский р-н)",
+    "education": "высшее",
+    "native language": "башкирский",
+    "is_able_to_write": "да",
+    "is_able_to_read": "да",
+    "place_of_residence_at_the_time_of_recording": "Рахметово (Абзелиловский р-н)"
+  },
+  "izg": {
+    "gender": "F",
+    "year_of_birth": "2005",
+    "place_of_birth": "Рахметово (Абзелиловский р-н)",
+    "education": "начальное",
+    "native language": "башкирский",
+    "is_able_to_write": "да",
+    "is_able_to_read": "да",
+    "place_of_residence_at_the_time_of_recording": "Рахметово (Абзелиловский р-н)"
+  },
+  "ksg": {
+    "gender": "F",
+    "year_of_birth": "1939",
+    "place_of_birth": "Яйкарово (Абзелиловский р-н)",
+    "education": "среднее",
+    "native language": "башкирский",
+    "is_able_to_write": "да",
+    "is_able_to_read": "да",
+    "place_of_residence_at_the_time_of_recording": "Рахметово (Абзелиловский р-н)"
+  },
+  "lba": {
+    "gender": "F",
+    "year_of_birth": "1980",
+    "place_of_birth": "Новомунасипово (Бурзянский р-н)",
+    "education": "высшее",
+    "native language": "башкирский",
+    "is_able_to_write": "да",
+    "is_able_to_read": "да",
+    "place_of_residence_at_the_time_of_recording": "Рахметово (Абзелиловский р-н)"
+  },
+  "lsm": {
+    "gender": "F",
+    "year_of_birth": "1962",
+    "place_of_birth": "?",
+    "education": "?",
+    "native language": "башкирский",
+    "is_able_to_write": "да",
+    "is_able_to_read": "да",
+    "place_of_residence_at_the_time_of_recording": "Рахметово (Абзелиловский р-н)"
+  },
+  "mfsB": {
+    "gender": "F",
+    "year_of_birth": "1951",
+    "place_of_birth": "Рахметово (Абзелиловский р-н)",
+    "education": "высшее",
+    "native language": "башкирский",
+    "is_able_to_write": "да",
+    "is_able_to_read": "да",
+    "place_of_residence_at_the_time_of_recording": "Баимово (Абзелиловский р-н)"
+  },
+  "mjj": {
+    "gender": "F",
+    "year_of_birth": "1930",
+    "place_of_birth": "Батталово (Учалинский р-н)",
+    "education": "?",
+    "native language": "башкирский",
+    "is_able_to_write": "да",
+    "is_able_to_read": "да",
+    "place_of_residence_at_the_time_of_recording": "Рахметово (Абзелиловский р-н)"
+  },
+  "mmmT": {
+    "gender": "M",
+    "year_of_birth": "?",
+    "place_of_birth": "?",
+    "education": "?",
+    "native language": "башкирский",
+    "is_able_to_write": "да",
+    "is_able_to_read": "да",
+    "place_of_residence_at_the_time_of_recording": "Туишево (Абзелиловский р-н)"
+  },
+  "mtsB": {
+    "gender": "F",
+    "year_of_birth": "1952",
+    "place_of_birth": "Даутово (Абзелиловский р-н)",
+    "education": "высшее",
+    "native language": "башкирский",
+    "is_able_to_write": "да",
+    "is_able_to_read": "да",
+    "place_of_residence_at_the_time_of_recording": "Баимово (Абзелиловский р-н)"
+  },
+  "nfg": {
+    "gender": "F",
+    "year_of_birth": "1996",
+    "place_of_birth": "Учалы",
+    "education": "среднее",
+    "native language": "башкирский",
+    "is_able_to_write": "да",
+    "is_able_to_read": "да",
+    "place_of_residence_at_the_time_of_recording": "Рахметово (Абзелиловский р-н)"
+  },
+  "ngg": {
+    "gender": "F",
+    "year_of_birth": "1941",
+    "place_of_birth": "Нукатово (Белорецкий р-н)",
+    "education": "?",
+    "native language": "башкирский",
+    "is_able_to_write": "да",
+    "is_able_to_read": "да",
+    "place_of_residence_at_the_time_of_recording": "Рахметово (Абзелиловский р-н)"
+  },
+  "nsgB": {
+    "gender": "F",
+    "year_of_birth": "1942",
+    "place_of_birth": "Кулуево (Аргаяшский р-н Челябинской обл.)",
+    "education": "высшее",
+    "native language": "башкирский",
+    "is_able_to_write": "да",
+    "is_able_to_read": "да",
+    "place_of_residence_at_the_time_of_recording": "Баимово (Абзелиловский р-н)"
+  },
+  "rgj": {
+    "gender": "F",
+    "year_of_birth": "1979",
+    "place_of_birth": "Белорецк",
+    "education": "высшее",
+    "native language": "башкирский",
+    "is_able_to_write": "да",
+    "is_able_to_read": "да",
+    "place_of_residence_at_the_time_of_recording": "Рахметово (Абзелиловский р-н)"
+  },
+  "rja": {
+    "gender": "M",
+    "year_of_birth": "1990",
+    "place_of_birth": "Белорецк",
+    "education": "высшее",
+    "native language": "башкирский",
+    "is_able_to_write": "да",
+    "is_able_to_read": "да",
+    "place_of_residence_at_the_time_of_recording": "Рахметово (Абзелиловский р-н)"
+  },
+  "rkhB": {
+    "gender": "F",
+    "year_of_birth": "2000",
+    "place_of_birth": "Магнитогорск",
+    "education": "среднее специальное",
+    "native language": "башкирский",
+    "is_able_to_write": "да",
+    "is_able_to_read": "да",
+    "place_of_residence_at_the_time_of_recording": "Габдиново (Абзелиловский р-н)"
+  },
+  "rmm": {
+    "gender": "F",
+    "year_of_birth": "1948",
+    "place_of_birth": "Баимово (Абзелиловский р-н)",
+    "education": "высшее",
+    "native language": "башкирский",
+    "is_able_to_write": "да",
+    "is_able_to_read": "да",
+    "place_of_residence_at_the_time_of_recording": "Рахметово (Абзелиловский р-н)"
+  },
+  "rrg": {
+    "gender": "F",
+    "year_of_birth": "1966",
+    "place_of_birth": "Рахметово (Абзелиловский р-н)",
+    "education": "высшее",
+    "native language": "башкирский",
+    "is_able_to_write": "да",
+    "is_able_to_read": "да",
+    "place_of_residence_at_the_time_of_recording": "Рахметово (Абзелиловский р-н)"
+  },
+  "rrm": {
+    "gender": "F",
+    "year_of_birth": "1948",
+    "place_of_birth": "Баимово (Абзелиловский р-н)",
+    "education": "высшее",
+    "native language": "башкирский",
+    "is_able_to_write": "да",
+    "is_able_to_read": "да",
+    "place_of_residence_at_the_time_of_recording": "Рахметово (Абзелиловский р-н)"
+  },
+  "rtk": {
+    "gender": "F",
+    "year_of_birth": "1973",
+    "place_of_birth": "Рахметово (Абзелиловский р-н)",
+    "education": "?",
+    "native language": "башкирский",
+    "is_able_to_write": "да",
+    "is_able_to_read": "да",
+    "place_of_residence_at_the_time_of_recording": "Рахметово (Абзелиловский р-н)"
+  },
+  "rza": {
+    "gender": "F",
+    "year_of_birth": "1969",
+    "place_of_birth": "Рахметово (Абзелиловский р-н)",
+    "education": "высшее",
+    "native language": "башкирский",
+    "is_able_to_write": "да",
+    "is_able_to_read": "да",
+    "place_of_residence_at_the_time_of_recording": "Белорецк"
+  },
+  "zdn": {
+    "gender": "F",
+    "year_of_birth": "1991",
+    "place_of_birth": "Рахметово (Абзелиловский р-н)",
+    "education": "среднее специальное",
+    "native language": "башкирский",
+    "is_able_to_write": "да",
+    "is_able_to_read": "да",
+    "place_of_residence_at_the_time_of_recording": "Рахметово (Абзелиловский р-н)"
+  },
+  "zmg": {
+    "gender": "M",
+    "year_of_birth": "1965",
+    "place_of_birth": "Рахметово (Абзелиловский р-н)",
+    "education": "?",
+    "native language": "башкирский",
+    "is_able_to_write": "да",
+    "is_able_to_read": "да",
+    "place_of_residence_at_the_time_of_recording": "Рахметово (Абзелиловский р-н)"
+  }
+}
